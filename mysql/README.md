@@ -22,7 +22,7 @@ grant all privileges on *.* to ansible@'localhost' identified by 'ansible168';
 grant all privileges on *.* to flasky@'localhost' identified by 'flasky168';
 grant all privileges on *.* to beer@'localhost' identified by '123456';
 GRANT ALL PRIVILEGES ON *.* TO 'socketadmin'@'%' IDENTIFIED BY 'socketadmin'; 
-
+grant all privileges on *.* to root@'127.0.0.1' identified by 'lfzs@efun.com'
 # 数据库回档
 mysql -uroot -p`cat /data/save/mysql_root` -S /tmp/mysql1.sock  t68_jyxy_90189 < /dps/merge/20180517/t68_jyxy_90189_192.168.125.191_3306_20180517100158.sql
 

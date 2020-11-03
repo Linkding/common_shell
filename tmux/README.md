@@ -8,7 +8,7 @@
 
 重命名会话
 
-    tmux rename-session -t  [new name] [session number] 
+    tmux rename-session -t   [session number] [new name]
 恢复会话：
 
     tmux at [-t 会话名]
